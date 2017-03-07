@@ -5,6 +5,11 @@ module Twine
   module CLI
     ALL_FORMATS = Formatters.formatters.map(&:format_name).map(&:downcase)
     OPTIONS = {
+      merge_all: {
+        switch: ['-m', '--[no-]merge_all'],
+        description: 'like consume_all, but adds tags to existing keys.',
+        boolean: true 
+      },
       consume_all: {
         switch: ['-a', '--[no-]consume-all'],
         description: 'Normally Twine will ignore any translation keys that do not exist in your Twine file.',
@@ -157,6 +162,7 @@ module Twine
         description: 'Slurps all of the translations from a localization file into the specified TWINE_FILE. If you have some files returned to you by your translators you can use this command to incorporate all of their changes. This script will attempt to guess both the language and the format given the filename and extension. For example, "ja.strings" will assume that the file is a Japanese iOS strings file.',
         arguments: [:twine_file, :input_path],
         optional_options: [
+          :merge_all,
           :consume_all,
           :consume_comments,
           :developer_language,
@@ -177,6 +183,7 @@ module Twine
         description: 'Slurps all of the translations from a directory into the specified TWINE_FILE. If you have some files returned to you by your translators you can use this command to incorporate all of their changes. This script will attempt to guess both the language and the format given the filename and extension. For example, "ja.strings" will assume that the file is a Japanese iOS strings file.',
         arguments: [:twine_file, :input_path],
         optional_options: [
+          :merge_all,
           :consume_all,
           :consume_comments,
           :developer_language,
@@ -191,6 +198,7 @@ module Twine
         description: 'Consumes an archive of translated files. This archive should be in the same format as the one created by the generate-localization-archive command.',
         arguments: [:twine_file, :input_path],
         optional_options: [
+          :merge_all,
           :consume_all,
           :consume_comments,
           :developer_language,

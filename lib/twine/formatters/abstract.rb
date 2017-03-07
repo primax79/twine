@@ -36,8 +36,19 @@ module Twine
 
           if !reference or value != reference.translations[lang]
             definition.translations[lang] = value
+          if (!definition.tags)
+              definition.tags = @options[:tags] 
+            elsif @options[:merge_all]
+              @options[:tags].each do |tags|
+                tags.each do |tag|
+                  if !definition.tags.include?(tag)
+                    definition.tags << tag
+                  end
+                end
+              end
+            end
           end
-        elsif @options[:consume_all]
+        elsif @options[:consume_all] ||  @options[:merge_all] 
           Twine::stderr.puts "Adding new definition '#{key}' to twine file."
           current_section = @twine_file.sections.find { |s| s.name == 'Uncategorized' }
           unless current_section
@@ -48,7 +59,16 @@ module Twine
           current_section.definitions << current_definition
           
           if @options[:tags] && @options[:tags].length > 0
-            current_definition.tags = @options[:tags]            
+
+            current_definition.tags = []
+            @options[:tags].each do |tags|
+                tags.each do |tag|
+                  if !current_definition.tags.include?(tag)
+                    current_definition.tags << tag
+                  end
+                end
+              end
+                    
           end
           
           @twine_file.definitions_by_key[key] = current_definition
