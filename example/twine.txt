@@ -1,0 +1,28 @@
+#rm strings.txt
+touch strings.txt
+
+#aggiorna il file strings.txt dalle risorse ios
+twine consume-localization-file strings.txt ~/xcode_projects/DAB/DIY/DIY/it.lproj/Localizable.strings -d en -m -c -l it -t ios
+twine consume-localization-file strings.txt ~/xcode_projects/DAB/DIY/DIY/Base.lproj/Localizable.strings -d en -m -c -l en -t ios
+
+
+#aggiorna il file strings.txt dalle risorse android
+twine consume-localization-file strings.txt ~/android_studio/DIY/app/src/main/res/values/strings.xml -d en -m -c -l en -t android 
+twine consume-localization-file strings.txt ~/android_studio/DIY/app/src/main/res/values-it/strings.xml -d en -m -c -l it -t android
+
+#genera le risorse android
+twine generate-all-localization-files strings.txt -r android -f android -t android
+
+#genera le risorse ios
+twine generate-all-localization-files strings.txt -r ios -f apple -t ios
+
+#sostituisce le risorse android sul progetto
+cp ./android/values-en/strings.xml ~/android_studio/DIY/app/src/main/res/values/strings.xml
+cp ./android/values-it/strings.xml ~/android_studio/DIY/app/src/main/res/values-it/strings.xml
+
+#sostituisce le risorse ios sul progetto
+cp ./ios/en.lproj/Localizable.strings ~/xcode_projects/DAB/DIY/DIY/Base.lproj/Localizable.strings
+cp ./ios/it.lproj/Localizable.strings ~/xcode_projects/DAB/DIY/DIY/it.lproj/Localizable.strings
+
+
+

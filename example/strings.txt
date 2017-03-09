@@ -1,0 +1,641 @@
+[[Uncategorized]]
+	[installazione_non_completata]
+		en = Installation failed
+		tags = ios
+		it = Installazione non completata
+	[attivazione]
+		en = Activation
+		tags = ios
+		it = Attivazione
+	[changed_password]
+		en = Password modified
+		tags = ios
+		it = Password modificata
+	[scrivi_password_wifi]
+		en = Insert the wifi password
+		tags = ios
+		it = Inserisci la password del wifi
+	[conferma_connessione_wifi]
+		en = Confirm to connect to the selected wifi?
+		tags = ios
+		it = Confermi la connessione alla rete?
+	[loading]
+		en = Loading...
+		tags = ios
+		comment = iOS
+		it = Loading...
+	[not_available_devel]
+		en = Not available in test
+		tags = ios
+		it = Non disponibile nella versione di test
+	[app_version]
+		en = Version %@ (%@)
+		tags = ios
+		it = Versione %@ (%@)
+	[server_error]
+		en = Errore di comunicazione col server
+		tags = ios,androids
+		it = Errore di comunicazione col server
+	[error]
+		en = Errore
+		tags = ios,androids
+		it = Errore
+	[cancel]
+		en = Annulla
+		tags = ios,androids
+		it = Annulla
+	[ok]
+		en = Ok
+		tags = ios,androids
+		it = Ok
+	[riprova]
+		en = Riprova
+		tags = ios,androids
+		it = Riprova
+	[conferma_ok]
+		en = Si, sono sicuro
+		tags = ios,androids
+		it = Si, sono sicuro
+	[cambia_nome]
+		en = Cambia il tuo nome
+		tags = ios,androids
+		it = Cambia il tuo nome
+	[cambia_password]
+		en = Cambia la tua password
+		tags = ios,androids
+		it = Cambia la tua password
+	[do_logout]
+		en = Do Logout?
+		tags = ios
+		it = Eseguire il Logout?
+	[cambia_foto]
+		en = Cambia foto
+		tags = ios,androids
+		comment = profilo utente
+		it = Cambia foto
+	[inserisci_vecchia_password]
+		en = Inserisci correttamente la tua vecchia password
+		tags = ios,androids
+		it = Inserisci correttamente la tua vecchia password
+	[vecchia_password]
+		en = Vecchia password
+		tags = ios,androids
+		it = Vecchia password
+	[nuova_password]
+		en = Nuova password
+		tags = ios,androids
+		it = Nuova password
+	[password_troppo_corta]
+		en = Password troppo corta
+		tags = ios,androids
+		it = Password troppo corta
+	[ripeti_password]
+		en = Ripeti password
+		tags = ios,androids
+		it = Ripeti password
+	[cancella_account]
+		en = Cancella il tuo account
+		tags = ios,androids
+		it = Cancella il tuo account
+	[conferma_elimina_accont]
+		en = Sei sicuro di voler cancellare il tuo account?
+		tags = ios,androids
+		it = Sei sicuro di voler cancellare il tuo account?
+	[numero_di_telefono]
+		en = Numero di telefono
+		tags = ios,androids
+		it = Numero di telefono
+	[error_invalid_email]
+		en = Errore, l'email inserita non è valida.
+		tags = ios,androids
+		it = Errore, l'email inserita non è valida.
+	[password_non_coincidono]
+		en = Le due password non coincidono
+		tags = ios,androids
+		it = Le due password non coincidono
+	[data_non_valida]
+		en = Data non valida
+		tags = ios,androids
+		it = Data non valida
+	[accetta_trattamento]
+		en = Accetta il trattamento dei dati personali
+		tags = ios,androids
+		it = Accetta il trattamento dei dati personali
+	[login]
+		en = Login
+		tags = ios,androids
+		comment = login & register
+		it = Login
+	[login_con_facebook]
+		en = Login con Facebook
+		tags = ios,androids
+		it = Login con Facebook
+	[password_dimenticata]
+		en = Password dimenticata?
+		tags = ios,androids
+		it = Password dimenticata?
+	[placeholder_email]
+		en = INDIRIZZO EMAIL
+		tags = ios,androids
+		it = INDIRIZZO EMAIL
+	[placeholder_password]
+		en = PASSWORD
+		tags = ios,androids
+		it = PASSWORD
+	[signing_question]
+		en = Se non sei registrato
+		tags = ios,androids
+		it = Se non sei registrato
+	[do_signin]
+		en = PER FAVORE REGISTRATI
+		tags = ios,androids
+		it = PER FAVORE REGISTRATI
+	[registrati]
+		en = Registrati
+		tags = ios,androids
+		it = Registrati
+	[registrati_per_favore]
+		en = Se non sei registrato\nPER FAVORE REGISTRATI
+		tags = ios,androids
+		it = Se non sei registrato\nPER FAVORE REGISTRATI
+	[password]
+		en = Password
+		tags = ios,androids
+		it = Password
+	[conferma_password]
+		en = Conferma la password
+		tags = ios,androids
+		it = Conferma la password
+	[conferma_password_]
+		en = CONFERMA LA PASSWORD
+		tags = ios,androids
+		it = CONFERMA LA PASSWORD
+	[data_di_nascita]
+		en = Data di nascita (gg/mm/aaaa)
+		tags = ios,androids
+		it = Data di nascita (gg/mm/aaaa)
+	[indirizzo_email]
+		en = Indirizzo Email
+		tags = ios,androids
+		it = Indirizzo Email
+	[informativa_privacy_txt]
+		en = Il sottoscritto/a acquisite le informazioni sopra riportate in osservanza all'art. 13 del DLgs n\° 196/2003 manifesta il proprio libero e pieno consenso al trattamento dei dati personali forniti mediante l'indicazione nella apposita casella in calce al Form.
+		tags = ios,androids
+		it = Il sottoscritto/a acquisite le informazioni sopra riportate in osservanza all'art. 13 del DLgs n\° 196/2003 manifesta il proprio libero e pieno consenso al trattamento dei dati personali forniti mediante l'indicazione nella apposita casella in calce al Form.
+	[fb_permission_error]
+		en = Missing mandatory permissions
+		tags = ios
+		it = E' necessario concedere i permessi richiesti
+	[fb_user_not_found]
+		en = The user is not regitered
+		tags = ios
+		it = Utente non registrato
+	[fb_do_register]
+		en = Proceed with signup?
+		tags = ios
+		it = Procedere con la registrazione?
+	[per_favore_email]
+		en = Per favore, inserisci l'indirizzo email di registrazione.\n Riceverai una password di accesso temporanea
+		tags = ios,androids
+		it = Per favore, inserisci l'indirizzo email di registrazione.\n Riceverai una password di accesso temporanea
+	[menu_home]
+		en = Il mio giardino
+		tags = ios,androids
+		comment = menu
+		it = Il mio giardino
+	[menu_devices]
+		en = I miei dispositivi
+		tags = ios,androids
+		it = I miei dispositivi
+	[menu_profile]
+		en = Profilo
+		tags = ios,androids
+		it = Profilo
+	[menu_info]
+		en = Informazioni
+		tags = ios,androids
+		it = Informazioni
+	[menu_support]
+		en = Supporto
+		tags = ios,androids
+		it = Supporto
+	[menu_logout]
+		en = Logout
+		tags = ios,androids
+		it = Logout
+	[status_ok]
+		en = STATUS OK
+		tags = ios,androids
+		comment = devices
+		it = STATUS OK
+	[bad_response_retry]
+		en = La richiesta non è andata a buon fine, riprovare.
+		tags = ios,androids
+		it = La richiesta non è andata a buon fine, riprovare.
+	[nessun_dato_da_ios]
+		en = NO DATA FROM: %@
+		tags = ios
+		it = NESSUN DATO DA: %@
+	[data_refresh_mancante]
+		en = DATA ULTIMO DATO RICEVUTO MANCANTE
+		tags = ios,androids
+		it = DATA ULTIMO DATO RICEVUTO MANCANTE
+	[cambia_il_nome]
+		en = Cambia nome
+		tags = ios,androids
+		it = Cambia nome
+	[device]
+		en = Device
+		tags = ios
+		it = dispositivo
+	[lun_short]
+		en = L
+		tags = ios,androids
+		it = L
+	[mar_short]
+		en = M
+		tags = ios,androids
+		it = M
+	[mer_short]
+		en = M
+		tags = ios,androids
+		it = M
+	[gio_short]
+		en = G
+		tags = ios,androids
+		it = G
+	[ven_short]
+		en = V
+		tags = ios,androids
+		it = V
+	[sab_short]
+		en = S
+		tags = ios,androids
+		it = S
+	[dom_short]
+		en = D
+		tags = ios,androids
+		it = D
+	[lun_medium]
+		en = Lun
+		tags = ios,androids
+		it = Lun
+	[mar_medium]
+		en = Mar
+		tags = ios,androids
+		it = Mar
+	[mer_medium]
+		en = Mer
+		tags = ios,androids
+		it = Mer
+	[gio_medium]
+		en = Gio
+		tags = ios,androids
+		it = Gio
+	[ven_medium]
+		en = Ven
+		tags = ios,androids
+		it = Ven
+	[sab_medium]
+		en = Sab
+		tags = ios,androids
+		it = Sab
+	[dom_medium]
+		en = Dom
+		tags = ios,androids
+		it = Dom
+	[aggiungi_programma]
+		en = Aggiungi programma
+		tags = ios,androids
+		comment = programmazione
+		it = Aggiungi programma
+	[programma_settimanale]
+		en = Programma Settimanale
+		tags = ios,androids
+		it = Programma Settimanale
+	[programma_settimanale_inserito]
+		en = Programma inserito con successo
+		tags = ios,androids
+		it = Programma inserito con successo
+	[aggiungi_sensore_wifi]
+		en = Aggiungi sensore wi-fi
+		tags = ios,androids
+		it = Aggiungi sensore wi-fi
+	[aggiungi_pompa_wifi]
+		en = Aggiungi pompa wi-fi
+		tags = ios,androids
+		it = Aggiungi pompa wi-fi
+	[conferma_elimina_dispsitivo]
+		en = Sei sicuro di voler eliminare il dispositivo?
+		tags = ios,androids
+		it = Sei sicuro di voler eliminare il dispositivo?
+	[installazione]
+		en = Installazione
+		tags = ios,androids
+		it = Installazione
+	[testo_di_benvenuto]
+		en = Welcome on Tallas SMARTY\nAdd your first device
+		tags = ios
+		it = Benvenuti su Tallas SMARTY\nAggiungi il tuo primo dispositivo
+	[istruzioni_accensione]
+		en = Connetti la tua pompa alla presa di corrente così da accendere la Smarty Led
+		tags = ios,androids
+		it = Connetti la tua pompa alla presa di corrente così da accendere la Smarty Led
+	[istruzioni_primo_punto]
+		en = Connetti il tuo smartphone con Tallas-xxxxxxx Wi-Fi così da accendere la Smarty Led permanentemente
+		tags = ios,androids
+		it = Connetti il tuo smartphone con Tallas-xxxxxxx Wi-Fi così da accendere la Smarty Led permanentemente
+	[searching]
+		en = Attendere, ricerca in corso
+		tags = ios,androids
+		it = Attendere, ricerca in corso
+	[istruzioni_quarto_punto]
+		en = "Connetti il tuo smartphone alla wifi di casa e attendi il termine dell'installazione del dispositivo"
+		tags = ios,androids
+		it = "Connetti il tuo smartphone alla wifi di casa e attendi il termine dell'installazione del dispositivo"
+	[istruzioni_connesso]
+		en = La tua pompa è connessa!
+		tags = ios,androids
+		it = La tua pompa è connessa!
+	[seleziona_wifi_casa]
+		en = Seleziona la tua wifi di casa
+		tags = ios,androids
+		it = Seleziona la tua wifi di casa
+	[attendere_completamento_installazione]
+		en = Attendere, installazione in corso…
+		tags = ios,androids
+		it = Attendere, installazione in corso…
+	[seriale_pompa_non_trovato]
+		en = Seriale pompa non trovato, contattare il produttore
+		tags = ios,androids
+		it = Seriale pompa non trovato, contattare il produttore
+	[no_wifi]
+		en = No wifi connection
+		tags = ios
+		it = Nessuna connessione
+	[aggiornamenti]
+		en = Aggiornamenti
+		tags = ios,androids
+		it = Aggiornamenti
+	[come_aiutarti]
+		en = Come possiamo aiutarti?
+		tags = ios,androids
+		comment = info
+		it = Come possiamo aiutarti?
+	[manuale_istruzioni]
+		en = Manuale di istruzioni
+		tags = ios,androids
+		it = Manuale di istruzioni
+	[eula]
+		en = EULA
+		tags = ios,androids
+		it = EULA
+	[termini_e_condizioni]
+		en = Termini e condizioni
+		tags = ios,androids
+		it = Termini e condizioni
+	[politiche_privacy]
+		en = Politiche sulla Privacy
+		tags = ios,androids
+		it = Politiche sulla Privacy
+	[support_redirect]
+		en = Sarai reinderizzato al nostra sezione di supporto all'interno di www.tallaspump.com
+		tags = ios,androids
+		it = Sarai reinderizzato al nostra sezione di supporto all'interno di www.tallaspump.com
+	[seleziona_citta]
+		en = Seleziona una città
+		tags = ios,androids
+		it = Seleziona una città
+	[cambia_nome_installazione]
+		en = Cambia nome all'installazione
+		tags = ios,androids
+		it = Cambia nome all'installazione
+	[pressione]
+		en = Pressione
+		tags = ios,androids
+		it = Pressione
+	[portata]
+		en = Portata
+		tags = ios,androids
+		it = Portata
+	[advanced]
+		en = Funzioni avanzate
+		tags = ios,androids
+		it = Funzioni avanzate
+	[facebook_app_id]
+		en = 1810725862476000
+		tags = androids
+	[app_name]
+		en = Tallas
+		tags = androids
+	[navigation_drawer_close]
+		en = Close navigation drawer
+		tags = androids
+	[navigation_drawer_open]
+		en = Open navigation drawer
+		tags = androids
+	[num_falso]
+		en = 39123456
+		tags = androids
+	[premere_per_uscire]
+		en = Premere nuovamente per uscire
+		tags = androids
+	[title_activity_main]
+		en = MainActivity
+		tags = androids
+	[in_attesa]
+		en = In attesa…
+		tags = androids
+	[parametro_modificato_con_successo]
+		en = Parametro modificato con successo
+		tags = androids
+	[attendere_completamento_richiesta]
+		en = Attendi il completamento della richiesta precedente
+		tags = androids
+	[cancellazione_in_corso]
+		en = Cancellazione in corso
+		tags = androids
+	[pompa_trovata_premere_per_proseguire]
+		en = Pompa trovata, premere il bottone per proseguire
+		tags = androids
+	[prosegui]
+		en = Prosegui
+		tags = androids
+	[connessione_alla_pompa_persa]
+		en = Connessione alla pompa persa
+		tags = androids
+	[connessione]
+		en = connessione
+		tags = androids
+	[all]
+		en = Tutti
+		tags = androids
+	[premere_per_uscire_installazione_pompa]
+		en = Premere nuovamente per uscire dalla configurazione della pompa
+		tags = androids
+	[reinderizzato]
+		en = Sarai reinderizzato a www.tallaspumps.com
+		tags = androids
+	[avviso]
+		en = Attenzione:
+		tags = androids
+	[connessa]
+		en = Connessa
+		tags = androids
+	[chiudi_app]
+		en = Chiudi l'app
+		tags = androids
+		comment = app
+	[no]
+		en = No
+		tags = androids
+	[ripeti]
+		en = Ripeti
+		tags = androids
+	[login_con_facebook_rich]
+		en = <string name="login_con_facebook"><b>Login</b> con <b>Facebook</b></string>
+		tags = androids
+	[informativa_privacy_rich]
+		en = <string name="informativa_privacy">Il sottoscritto/a acquisite le informazioni sopra riportate in osservanza all'art. <b>13 del DLgs n\° 196/2003</b> manifesta il proprio libero e pieno consenso al trattamento dei dati personali forniti mediante l'indicazione nella apposita casella in calce al Form.</string>
+		tags = androids
+	[campo_non_vuoto]
+		en = Il campo non può essere lasciato vuoto
+		tags = androids
+	[campo_troppo_corto]
+		en = Il campo è troppo corto
+		tags = androids
+	[cant_be_empty]
+		en = Questo campo non può essere lasciato vuoto
+		tags = androids
+	[dove_trovare_password]
+		en = Dove posso trovare la mia password?
+		tags = androids
+	[inserisci_indirizzo_email_]
+		en = INSERISCI IL TUO INDIRIZZO EMAIL
+		tags = androids
+	[inserisci_password_]
+		en = INSERISCI UNA PASSWORD
+		tags = androids
+	[reset_password]
+		en = Reset Password
+		tags = androids
+	[facebook_email_necessaria]
+		en = E' necessario avere il tuo indirizzo email per completare la registrazione.
+		tags = androids
+	[richiedi_nuovamente]
+		en = Chiedi nuovamente
+		tags = androids
+	[completa_registrazione]
+		en = Completa qui la tua registrazione
+		tags = androids
+	[associa_account_facebook]
+		en = Associa account Facebook
+		tags = androids
+	[richiesta_annullata]
+		en = Richiesta cancellata
+		tags = androids
+	[il_tuo_nome]
+		en = Il tuo nome…
+		tags = androids
+	[nessun_dato_da]
+		en = NESSUN DATO DA:
+		tags = androids
+	[seriale]
+		en = seriale
+		tags = androids
+	[on]
+		en = Attivazione
+		tags = androids
+	[salva]
+		en = Salva
+		tags = androids
+	[scrivi_la_citta]
+		en = Scrivi la città desiderata
+		tags = androids
+	[seleziona_paese]
+		en = Seleziona lo Stato
+		tags = androids
+	[nessun_programma_da_visualizzare]
+		en = Non hai nessun programma da visualizzare!
+		tags = androids
+	[programma]
+		en = Programma
+		tags = androids
+	[la_durata_non_puo_essere_nulla]
+		en = La durata deve avere un valore maggiore di zero
+		tags = androids
+	[selezionare_almeno_un_giorno]
+		en = Selezionare almeno un giorno
+		tags = androids
+	[massimo_numero_programmi_attivi_raggiunto]
+		en = Massimo numero di programmi attivi raggiunto
+		tags = androids
+	[programma_rimosso]
+		en = Programma cancellato
+		tags = androids
+	[durata]
+		en = Durata
+		tags = androids
+	[inizio]
+		en = Inizio
+		tags = androids
+	[secondi_sigla]
+		en = s
+		tags = androids
+	[minuti_sigla]
+		en = minuto/i
+		tags = androids
+	[ore_sigla]
+		en = ora/e
+		tags = androids
+	[giorni_sigla]
+		en = giorno/i
+		tags = androids
+	[tempo]
+		en = TEMPO
+		tags = androids
+	[minuti]
+		en = min
+		tags = androids
+	[testo_di_benvenuto_rich]
+		en = <string name="testo_di_benvenuto">Benvenuti su <b>Tallas SMARTY</b>\nAggiungi il tuo primo dispositivo</string>
+		tags = androids
+	[istruzioni_accensione_rich]
+		en = <string name="istruzioni">Connetti la tua pompa alla presa di corrente così da accendere la <b>Smarty Led</b></string>
+		tags = androids
+	[istruzioni_primo_punto_rich]
+		en = <string name="istruzioni_primo_punto">    Connetti il tuo smartphone con la rete Tallas-xxxxxxx Wi-Fi ,  lo <b>Smarty Led</b> si accende permanentemente</string>
+		tags = androids
+	[istruzioni_primo_punto_aspetta_rich]
+		en = <string name="istruzioni_primo_punto_aspetta">Attendere, ricerca in corso…</string>
+		tags = androids
+	[apri_le_impostazioni]
+		en = Apri le impostazioni Wi-Fi
+		tags = androids
+	[errore_connected_pompa]
+		en = Si è verificato un errore durante la connessione alla pompa, riprovare?
+		tags = androids
+	[errore_connessione]
+		en = Errore durante la connessione della pompa
+		tags = androids
+	[errore_installation_pompa]
+		en = Errore durante l'installazione della pompa riprovare?
+		tags = androids
+	[chiudi_installazione]
+		en = Chiudi installazione
+		tags = androids
+	[pompa_non_trovata]
+		en = Pompa non trovata
+		tags = androids
+	[pompa_non_trovata_retry]
+		en = Vuoi riprovare la procedura dall'inizio?
+		tags = androids
+	[info_password]
+		en = Puoi trovare la tua password nella parte inferiore del tuo router
+		tags = androids
+	[devi_avere_una_installazione]
+		en = Per entrare devi avere almeno un'installazione
+		tags = androids
+	[non_connessa]
+		en = Disconnessa
+		tags = androids
