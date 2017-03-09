@@ -1,0 +1,103 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Local File",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "runtimeArgs": [
+                "-rubygems",
+                "-I ${workspaceRoot}/lib"
+            ],
+            "program": "${workspaceRoot}/bin/twine"
+        },
+        {
+            "name": "Consume iOS EN",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "runtimeArgs": [
+                "-rubygems",
+                "-I ${workspaceRoot}/lib"
+            ],
+            "program": "${workspaceRoot}/bin/twine",
+            "args": [
+                "consume-localization-file",
+                "example/strings.txt",
+                "example/origin/LocalizableEn.strings",
+                "--developer-language", "en", // -d lingua sviluppo
+                "--merge_all", // -a aggiunge chiavi non esistenti
+                "--consume-comments", // -c aggiunge commenti
+                "--format", "apple",  // -f 
+                "-l", "en",
+                "--tags", "ios" // -t Only definitions with ANY of the specified tags will be processed
+            ]
+        },
+        {
+            "name": "Consume iOS IT",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "runtimeArgs": [
+                "-rubygems",
+                "-I ${workspaceRoot}/lib"
+            ],
+            "program": "${workspaceRoot}/bin/twine",
+            "args": [
+                "consume-localization-file",
+                "example/strings.txt",
+                "example/origin/LocalizableIt.strings",
+                "--developer-language", "en", // -d lingua sviluppo
+                "--merge_all", // -a aggiunge chiavi non esistenti
+                "--consume-comments", // -c aggiunge commenti
+                "--format", "apple",  // -f 
+                "-l", "it",
+                "--tags", "ios" // -t Only definitions with ANY of the specified tags will be processed
+            ]
+        },
+        {
+            "name": "Consume Android EN",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "runtimeArgs": [
+                "-rubygems",
+                "-I ${workspaceRoot}/lib"
+            ],
+            "program": "${workspaceRoot}/bin/twine",
+            "args": [
+                "consume-localization-file",
+                "example/strings.txt",
+                "example/origin/stringsEn.xml",
+                "--developer-language", "en", // -d lingua sviluppo
+                "--merge_all", // -m aggiunge chiavi non esistenti
+                "--consume-comments", // -c aggiunge commenti
+                "--format", "android",  // -f 
+                "-l", "en",
+                "--tags", "android" // -t Only definitions with ANY of the specified tags will be processed
+            ]
+        },{
+            "name": "Consume Android IT",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "runtimeArgs": [
+                "-rubygems",
+                "-I ${workspaceRoot}/lib"
+            ],
+            "program": "${workspaceRoot}/bin/twine",
+            "args": [
+                "consume-localization-file",
+                "example/strings.txt",
+                "example/origin/stringsIt.xml",
+                "--developer-language", "en", // -d lingua sviluppo
+                "--merge_all", // -m aggiunge chiavi non esistenti
+                "--consume-comments", // -c aggiunge commenti
+                "--format", "android",  // -f 
+                "-l", "it",
+                "--tags", "android" // -t Only definitions with ANY of the specified tags will be processed
+            ]
+        }
+    ]
+}
