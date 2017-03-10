@@ -7,11 +7,8 @@
 	<string name="dove_trovare_password">Dove posso trovare la mia password?</string>
 
 	<!-- SECTION: APP -->
-	<string name="facebook_app_id">1810725862476000</string>
-	<string name="app_name">Tallas</string>
 	<string name="close">Chiudi</string>
-	<string name="open">Apri</string>
-	<string name="num_falso">39123456</string>
+	<string name="open">Apri ààà</string>
 	<string name="chiudi_app">Chiudi l\'app</string>
 	<string name="all">Tutti</string>
 	<string name="no">No</string>
@@ -51,7 +48,6 @@
 	<string name="data_di_nascita">Data di nascita (gg/mm/aaaa)</string>
 	<string name="indirizzo_email">Indirizzo Email</string>
 	<string name="informativa_privacy_txt">Il sottoscritto/a acquisite le informazioni sopra riportate in osservanza all\'art. 13 del DLgs n\° 196/2003 manifesta il proprio libero e pieno consenso al trattamento dei dati personali forniti mediante l\'indicazione nella apposita casella in calce al Form.</string>
-	<string name="informativa_privacy_rich">&lt;string name=\"informativa_privacy\">Il sottoscritto/a acquisite le informazioni sopra riportate in osservanza all\'art. &lt;b>13 del DLgs n\° 196/2003&lt;/b> manifesta il proprio libero e pieno consenso al trattamento dei dati personali forniti mediante l\'indicazione nella apposita casella in calce al Form.&lt;/string></string>
 	<string name="per_favore_email">Per favore, inserisci l\'indirizzo email di registrazione.\n Riceverai una password di accesso temporanea</string>
 	<string name="inserisci_indirizzo_email_">INSERISCI IL TUO INDIRIZZO EMAIL</string>
 	<string name="inserisci_password_">INSERISCI UNA PASSWORD</string>
@@ -59,7 +55,6 @@
 	<string name="facebook_email_necessaria">E\' necessario avere il tuo indirizzo email per completare la registrazione.</string>
 	<string name="completa_registrazione">Completa qui la tua registrazione</string>
 	<string name="associa_account_facebook">Associa account Facebook</string>
-	<string name="login_con_facebook_rich">&lt;string name=\"login_con_facebook\">&lt;b>Login&lt;/b> con &lt;b>Facebook&lt;/b>&lt;/string></string>
 
 	<!-- SECTION: Profilo Utente -->
 	<string name="il_tuo_nome">Il tuo nome…</string>
@@ -141,10 +136,10 @@
 	<string name="cancellazione_in_corso">Cancellazione in corso</string>
 
 	<!-- SECTION: WIZARD -->
-	<string name="testo_di_benvenuto_rich">&lt;string name=\"testo_di_benvenuto\">Benvenuti su &lt;b>Tallas SMARTY&lt;/b>\nAggiungi il tuo primo dispositivo&lt;/string></string>
-	<string name="istruzioni_accensione_rich">&lt;string name=\"istruzioni\">Connetti la tua pompa alla presa di corrente così da accendere la &lt;b>Smarty Led&lt;/b>&lt;/string></string>
-	<string name="istruzioni_primo_punto_rich">&lt;string name=\"istruzioni_primo_punto\">    Connetti il tuo smartphone con la rete Tallas-xxxxxxx Wi-Fi ,  lo &lt;b>Smarty Led&lt;/b> si accende permanentemente&lt;/string></string>
-	<string name="istruzioni_primo_punto_aspetta_rich">&lt;string name=\"istruzioni_primo_punto_aspetta\">Attendere, ricerca in corso…&lt;/string></string>
+	<string name="testo_di_benvenuto">Benvenuti su Tallas SMARTY\nAggiungi il tuo primo dispositivo</string>
+	<string name="istruzioni_accensione">Connetti la tua pompa alla presa di corrente così da accendere la Smarty Led</string>
+	<string name="istruzioni_primo_punto">Connetti il tuo smartphone con Tallas-xxxxxxx Wi-Fi così da accendere la Smarty Led permanentemente</string>
+	<string name="searching">Attendere, ricerca in corso</string>
 	<string name="apri_le_impostazioni">Apri le impostazioni Wi-Fi</string>
 	<string name="errore_connected_pompa">Si è verificato un errore durante la connessione alla pompa, riprovare?</string>
 	<string name="errore_connessione">Errore durante la connessione della pompa</string>
@@ -157,9 +152,6 @@
 	<string name="non_connessa">Disconnessa</string>
 	<string name="aggiungi_sensore_wifi">Aggiungi sensore wi-fi</string>
 	<string name="installazione">Installazione</string>
-	<string name="istruzioni_accensione">Connetti la tua pompa alla presa di corrente così da accendere la Smarty Led</string>
-	<string name="istruzioni_primo_punto">Connetti il tuo smartphone con Tallas-xxxxxxx Wi-Fi così da accendere la Smarty Led permanentemente</string>
-	<string name="searching">Attendere, ricerca in corso</string>
 	<string name="istruzioni_quarto_punto">Connetti il tuo smartphone alla wifi di casa e attendi il termine dell\'installazione del dispositivo</string>
 	<string name="istruzioni_connesso">La tua pompa è connessa!</string>
 	<string name="seleziona_wifi_casa">Seleziona la tua wifi di casa</string>

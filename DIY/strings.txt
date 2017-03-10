@@ -6,14 +6,6 @@
 
 
 [[APP]]	
-	[facebook_app_id]
-		en = 1810725862476000
-		tags = android
-		it = 1810725862476000
-	[app_name]
-		en = Tallas
-		tags = android
-		it = Tallas
 	[close]
 		en = Close
 		tags = android
@@ -21,11 +13,7 @@
 	[open]
 		en = Open
 		tags = android
-		it = Apri
-	[num_falso]
-		en = 39123456
-		tags = android
-		it = 39123456
+		it = Apri ààà
     [loading]
 		en = Loading...
 		tags = ios
@@ -188,10 +176,6 @@
 		en = Il sottoscritto/a acquisite le informazioni sopra riportate in osservanza all'art. 13 del DLgs n\° 196/2003 manifesta il proprio libero e pieno consenso al trattamento dei dati personali forniti mediante l'indicazione nella apposita casella in calce al Form.
 		tags = ios,android
 		it = Il sottoscritto/a acquisite le informazioni sopra riportate in osservanza all'art. 13 del DLgs n\° 196/2003 manifesta il proprio libero e pieno consenso al trattamento dei dati personali forniti mediante l'indicazione nella apposita casella in calce al Form.
-	[informativa_privacy_rich]
-		en = <string name="informativa_privacy">Il sottoscritto/a acquisite le informazioni sopra riportate in osservanza all'art. <b>13 del DLgs n\° 196/2003</b> manifesta il proprio libero e pieno consenso al trattamento dei dati personali forniti mediante l'indicazione nella apposita casella in calce al Form.</string>
-		tags = android
-		it = <string name="informativa_privacy">Il sottoscritto/a acquisite le informazioni sopra riportate in osservanza all'art. <b>13 del DLgs n\° 196/2003</b> manifesta il proprio libero e pieno consenso al trattamento dei dati personali forniti mediante l'indicazione nella apposita casella in calce al Form.</string>
 	[fb_permission_error]
 		en = Missing mandatory permissions
 		tags = ios
@@ -236,10 +220,6 @@
 		en = Sign Up with Facebook
 		tags = android
 		it = Associa account Facebook
-	[login_con_facebook_rich]
-		en = <string name="login_con_facebook"><b>Login</b> with <b>Facebook</b></string>
-		tags = android
-		it = <string name="login_con_facebook"><b>Login</b> con <b>Facebook</b></string>
 
 [[Profilo Utente]]
 	[il_tuo_nome]
@@ -549,23 +529,23 @@
 	[installazione_non_completata]
 		en = Installation failed
 		tags = ios
-		it = Installazione non completata
-	[testo_di_benvenuto_rich]
-		en = <string name="testo_di_benvenuto">Welcome on <b>Tallas SMARTY</b>\nAdd your first device</string>
-		tags = android
-		it = <string name="testo_di_benvenuto">Benvenuti su <b>Tallas SMARTY</b>\nAggiungi il tuo primo dispositivo</string>
-	[istruzioni_accensione_rich]
-		en = <string name="istruzioni">Connect your pump to the electric socket, the <b>Smarty Led</b> lights on</string>
-		tags = android
-		it = <string name="istruzioni">Connetti la tua pompa alla presa di corrente così da accendere la <b>Smarty Led</b></string>
-	[istruzioni_primo_punto_rich]
-		en = <string name="istruzioni_primo_punto">Connect your smartphone with the Tallas-xxxxxxx Wi-Fi, the <b>Smarty Led</b> lights on permanently</string>
-		tags = android
-		it = <string name="istruzioni_primo_punto">    Connetti il tuo smartphone con la rete Tallas-xxxxxxx Wi-Fi ,  lo <b>Smarty Led</b> si accende permanentemente</string>
-	[istruzioni_primo_punto_aspetta_rich]
-		en = <string name="istruzioni_primo_punto_aspetta">Wait, finding……</string>
-		tags = android
-		it = <string name="istruzioni_primo_punto_aspetta">Attendere, ricerca in corso…</string>
+		it = Installazione non completata]
+	[testo_di_benvenuto]
+		en = Welcome on Tallas SMARTY\nAdd your first device
+		tags = ios,android
+		it = Benvenuti su Tallas SMARTY\nAggiungi il tuo primo dispositivo
+	[istruzioni_accensione]
+		en = Connect your pump to the electric socket, the Smarty Led lights on
+		tags = ios,android
+		it = Connetti la tua pompa alla presa di corrente così da accendere la Smarty Led
+	[istruzioni_primo_punto]
+		en = Connect your smartphone with the Tallas-xxxxxxx Wi-Fi, the Smarty Led lights on permanently
+		tags = ios,android
+		it = Connetti il tuo smartphone con Tallas-xxxxxxx Wi-Fi così da accendere la Smarty Led permanentemente
+	[searching]
+		en = Wait, search in progress…
+		tags = ios,android
+		it = Attendere, ricerca in corso
 	[apri_le_impostazioni]
 		en = Open the Wi-Fi Settings
 		tags = android
@@ -614,22 +594,6 @@
 		en = Installation
 		tags = ios,android
 		it = Installazione
-	[testo_di_benvenuto]
-		en = Welcome on Tallas SMARTY\nAdd your first device
-		tags = ios
-		it = Benvenuti su Tallas SMARTY\nAggiungi il tuo primo dispositivo
-	[istruzioni_accensione]
-		en = Connect your pump to the electric socket, the Smarty Led lights on
-		tags = ios,android
-		it = Connetti la tua pompa alla presa di corrente così da accendere la Smarty Led
-	[istruzioni_primo_punto]
-		en = Connect your smartphone with the Tallas-xxxxxxx Wi-Fi, the Smarty Led lights on permanently
-		tags = ios,android
-		it = Connetti il tuo smartphone con Tallas-xxxxxxx Wi-Fi così da accendere la Smarty Led permanentemente
-	[searching]
-		en = Wait, search in progress…
-		tags = ios,android
-		it = Attendere, ricerca in corso
 	[istruzioni_quarto_punto]
 		en = Connect the smartphone to the Wi-Fi connection
 		tags = ios,android

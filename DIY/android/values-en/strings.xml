@@ -7,11 +7,8 @@
 	<string name="dove_trovare_password">Where can I find the password?</string>
 
 	<!-- SECTION: APP -->
-	<string name="facebook_app_id">1810725862476000</string>
-	<string name="app_name">Tallas</string>
 	<string name="close">Close</string>
 	<string name="open">Open</string>
-	<string name="num_falso">39123456</string>
 	<string name="chiudi_app">Close the app</string>
 	<string name="all">All</string>
 	<string name="no">No</string>
@@ -51,7 +48,6 @@
 	<string name="data_di_nascita">Date of birth (dd/mm/yyyy)</string>
 	<string name="indirizzo_email">E-mail address</string>
 	<string name="informativa_privacy_txt">Il sottoscritto/a acquisite le informazioni sopra riportate in osservanza all\'art. 13 del DLgs n\° 196/2003 manifesta il proprio libero e pieno consenso al trattamento dei dati personali forniti mediante l\'indicazione nella apposita casella in calce al Form.</string>
-	<string name="informativa_privacy_rich">&lt;string name=\"informativa_privacy\">Il sottoscritto/a acquisite le informazioni sopra riportate in osservanza all\'art. &lt;b>13 del DLgs n\° 196/2003&lt;/b> manifesta il proprio libero e pieno consenso al trattamento dei dati personali forniti mediante l\'indicazione nella apposita casella in calce al Form.&lt;/string></string>
 	<string name="per_favore_email">Please insert the e-mail address.\nYou will receive a temporary password</string>
 	<string name="inserisci_indirizzo_email_">INSERT YOUR E-MAIL ADDRESS</string>
 	<string name="inserisci_password_">INSERT A PASSWORD</string>
@@ -59,7 +55,6 @@
 	<string name="facebook_email_necessaria">Your e-mail address is required to complete the registration</string>
 	<string name="completa_registrazione">Complete here your registration</string>
 	<string name="associa_account_facebook">Sign Up with Facebook</string>
-	<string name="login_con_facebook_rich">&lt;string name=\"login_con_facebook\">&lt;b>Login&lt;/b> with &lt;b>Facebook&lt;/b>&lt;/string></string>
 
 	<!-- SECTION: Profilo Utente -->
 	<string name="il_tuo_nome">Your Name…</string>
@@ -141,10 +136,10 @@
 	<string name="cancellazione_in_corso">Cancelling...</string>
 
 	<!-- SECTION: WIZARD -->
-	<string name="testo_di_benvenuto_rich">&lt;string name=\"testo_di_benvenuto\">Welcome on &lt;b>Tallas SMARTY&lt;/b>\nAdd your first device&lt;/string></string>
-	<string name="istruzioni_accensione_rich">&lt;string name=\"istruzioni\">Connect your pump to the electric socket, the &lt;b>Smarty Led&lt;/b> lights on&lt;/string></string>
-	<string name="istruzioni_primo_punto_rich">&lt;string name=\"istruzioni_primo_punto\">Connect your smartphone with the Tallas-xxxxxxx Wi-Fi, the &lt;b>Smarty Led&lt;/b> lights on permanently&lt;/string></string>
-	<string name="istruzioni_primo_punto_aspetta_rich">&lt;string name=\"istruzioni_primo_punto_aspetta\">Wait, finding……&lt;/string></string>
+	<string name="testo_di_benvenuto">Welcome on Tallas SMARTY\nAdd your first device</string>
+	<string name="istruzioni_accensione">Connect your pump to the electric socket, the Smarty Led lights on</string>
+	<string name="istruzioni_primo_punto">Connect your smartphone with the Tallas-xxxxxxx Wi-Fi, the Smarty Led lights on permanently</string>
+	<string name="searching">Wait, search in progress…</string>
 	<string name="apri_le_impostazioni">Open the Wi-Fi Settings</string>
 	<string name="errore_connected_pompa">An error occured during the connection with the pump, try again?</string>
 	<string name="errore_connessione">An error occured during the connection with the pump</string>
@@ -157,9 +152,6 @@
 	<string name="non_connessa">Disconnected</string>
 	<string name="aggiungi_sensore_wifi">Add a sensor</string>
 	<string name="installazione">Installation</string>
-	<string name="istruzioni_accensione">Connect your pump to the electric socket, the Smarty Led lights on</string>
-	<string name="istruzioni_primo_punto">Connect your smartphone with the Tallas-xxxxxxx Wi-Fi, the Smarty Led lights on permanently</string>
-	<string name="searching">Wait, search in progress…</string>
 	<string name="istruzioni_quarto_punto">Connect the smartphone to the Wi-Fi connection</string>
 	<string name="istruzioni_connesso">Your pump is connected!</string>
 	<string name="seleziona_wifi_casa">Select your Wi-Fi connection</string>
