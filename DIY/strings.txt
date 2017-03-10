@@ -352,7 +352,7 @@
 	[istruzioni_quarto_punto]
 		en = Connect the smartphone to the Wi-Fi connection
 		tags = ios,android
-		it = "Connetti il tuo smartphone alla wifi di casa e attendi il termine dell'installazione del dispositivo"
+		it = Connetti il tuo smartphone alla wifi di casa e attendi il termine dell'installazione del dispositivo
 	[istruzioni_connesso]
 		en = Your pump is connected!
 		tags = ios,android
@@ -713,5 +713,9 @@
 		it = Disconnessa
 	[email_inviata]
 		en = An email was sent to this email address
-		tags = android
+		tags = android,ios
 		it = Un'email è stata inviata a questo indirizzo
+	[name]
+		en = Nome
+		tags = ios
+		it = Name

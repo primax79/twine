@@ -2,8 +2,8 @@
 touch strings.txt
 
 ## base osx
-export BASE_PROJ_XCODE='~/xcode_projects/DAB/DIY/DIY'
-export BASE_PROJ_ANDROID='~/android_studio/DIY'
+export BASE_PROJ_XCODE=~/xcode_projects/DAB/DIY/DIY
+export BASE_PROJ_ANDROID=~/android_studio/DIY
 
 ## base windows
 export BASE_PROJ_ANDROID='/c/Works/Android/Diy'
@@ -14,22 +14,19 @@ export BASE_PROJ_ANDROID='/c/Works/Android/Diy'
 
 
 #aggiorna il file strings.txt dalle risorse android
-./twine consume-localization-file example/strings.txt $BASE_PROJ_ANDROID/app/src/main/res/values/strings.xml -d en -m -c -l en -t android 
-./twine consume-localization-file example/strings.txt $BASE_PROJ_ANDROID/app/src/main/res/values-it/strings.xml -d en -m -c -l it -t android
+./twine consume-localization-file DIY/strings.txt $BASE_PROJ_ANDROID/app/src/main/res/values/strings.xml -d en -m -c -l en -t android 
+./twine consume-localization-file DIY/strings.txt $BASE_PROJ_ANDROID/app/src/main/res/values-it/strings.xml -d en -m -c -l it -t android
 
 #genera le risorse android
-./twine generate-all-localization-files example/strings.txt -r example/android -f android -t android
+./twine generate-all-localization-files DIY/strings.txt -r DIY/android -f android -t android
 
 #genera le risorse ios
-./twine generate-all-localization-files example/strings.txt -r example/ios -f apple -t ios
+./twine generate-all-localization-files DIY/strings.txt -r DIY/ios -f apple -t ios
 
 #sostituisce le risorse android sul progetto
-cp example/android/values-en/strings.xml $BASE_PROJ_ANDROID/app/src/main/res/values/strings.xml
-cp example/android/values-it/strings.xml $BASE_PROJ_ANDROID/app/src/main/res/values-it/strings.xml
+cp DIY/android/values-en/strings.xml $BASE_PROJ_ANDROID/app/src/main/res/values/strings.xml
+cp DIY/android/values-it/strings.xml $BASE_PROJ_ANDROID/app/src/main/res/values-it/strings.xml
 
 #sostituisce le risorse ios sul progetto
-cp ./ios/en.lproj/Localizable.strings  $BASE_PROJ_XCODE/Base.lproj/Localizable.strings
-cp ./ios/it.lproj/Localizable.strings $BASE_PROJ_XCODE/it.lproj/Localizable.strings
-
-
-
+cp DIY/ios/en.lproj/Localizable.strings $BASE_PROJ_XCODE/Base.lproj/Localizable.strings
+cp DIY/ios/it.lproj/Localizable.strings $BASE_PROJ_XCODE/it.lproj/Localizable.strings

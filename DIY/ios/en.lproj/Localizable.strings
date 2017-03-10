@@ -4,7 +4,7 @@
  * Language: en
  */
 
-/********** IOS ONLY **********/
+/********** Uncategorized **********/
 
 "installazione_non_completata" = "Installation failed";
 
@@ -23,9 +23,6 @@
 
 "app_version" = "Version %@ (%@)";
 
-
-/********** APP **********/
-
 "server_error" = "Server error";
 
 "error" = "Error";
@@ -37,9 +34,6 @@
 "riprova" = "Retry";
 
 "conferma_ok" = "Yes, I'm sure";
-
-
-/********** PROFILO **********/
 
 "cambia_nome" = "Change your name";
 
@@ -73,9 +67,6 @@
 "data_non_valida" = "Invalid date";
 
 "accetta_trattamento" = "Please accept the terms of service and privacy policy";
-
-
-/********** LOGIN e REGISTRAZIONE **********/
 
 /* login & register */
 "login" = "Login";
@@ -116,9 +107,6 @@
 
 "per_favore_email" = "Please insert the e-mail address.\nYou will receive a temporary password";
 
-
-/********** MENU **********/
-
 /* menu */
 "menu_home" = "My Garden";
 
@@ -132,9 +120,6 @@
 
 "menu_logout" = "Logout";
 
-
-/********** DEVICE **********/
-
 /* devices */
 "status_ok" = "STATUS OK";
 
@@ -147,9 +132,6 @@
 "cambia_il_nome" = "Change name";
 
 "device" = "Device";
-
-
-/********** PROGRAMMAZIONE **********/
 
 "lun_short" = "M";
 
@@ -186,9 +168,6 @@
 
 "programma_settimanale_inserito" = "Program inserted successfully";
 
-
-/********** WIZARD **********/
-
 "aggiungi_sensore_wifi" = "Add a sensor";
 
 "aggiungi_pompa_wifi" = "Add a Wi-Fi Pump";
@@ -217,9 +196,6 @@
 
 "no_wifi" = "No wifi connection";
 
-
-/********** INFO **********/
-
 "aggiornamenti" = "Updates";
 
 /* info */
@@ -244,3 +220,7 @@
 "portata" = "Flow rate";
 
 "advanced" = "Advanced settings";
+
+"email_inviata" = "An email was sent to this email address";
+
+"name" = "Nome";

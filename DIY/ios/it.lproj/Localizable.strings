@@ -4,7 +4,7 @@
  * Language: it
  */
 
-/********** IOS ONLY **********/
+/********** Uncategorized **********/
 
 "installazione_non_completata" = "Installazione non completata";
 
@@ -23,9 +23,6 @@
 
 "app_version" = "Versione %@ (%@)";
 
-
-/********** APP **********/
-
 "server_error" = "Errore di comunicazione col server";
 
 "error" = "Errore";
@@ -37,9 +34,6 @@
 "riprova" = "Riprova";
 
 "conferma_ok" = "Si, sono sicuro";
-
-
-/********** PROFILO **********/
 
 "cambia_nome" = "Cambia il tuo nome";
 
@@ -73,9 +67,6 @@
 "data_non_valida" = "Data non valida";
 
 "accetta_trattamento" = "Accetta il trattamento dei dati personali";
-
-
-/********** LOGIN e REGISTRAZIONE **********/
 
 /* login & register */
 "login" = "Login";
@@ -116,9 +107,6 @@
 
 "per_favore_email" = "Per favore, inserisci l'indirizzo email di registrazione.\n Riceverai una password di accesso temporanea";
 
-
-/********** MENU **********/
-
 /* menu */
 "menu_home" = "Il mio giardino";
 
@@ -132,9 +120,6 @@
 
 "menu_logout" = "Logout";
 
-
-/********** DEVICE **********/
-
 /* devices */
 "status_ok" = "STATUS OK";
 
@@ -147,9 +132,6 @@
 "cambia_il_nome" = "Cambia nome";
 
 "device" = "dispositivo";
-
-
-/********** PROGRAMMAZIONE **********/
 
 "lun_short" = "L";
 
@@ -186,9 +168,6 @@
 
 "programma_settimanale_inserito" = "Programma inserito con successo";
 
-
-/********** WIZARD **********/
-
 "aggiungi_sensore_wifi" = "Aggiungi sensore wi-fi";
 
 "aggiungi_pompa_wifi" = "Aggiungi pompa wi-fi";
@@ -205,7 +184,7 @@
 
 "searching" = "Attendere, ricerca in corso";
 
-"istruzioni_quarto_punto" = "\"Connetti il tuo smartphone alla wifi di casa e attendi il termine dell'installazione del dispositivo\"";
+"istruzioni_quarto_punto" = "Connetti il tuo smartphone alla wifi di casa e attendi il termine dell'installazione del dispositivo";
 
 "istruzioni_connesso" = "La tua pompa è connessa!";
 
@@ -216,9 +195,6 @@
 "seriale_pompa_non_trovato" = "Seriale pompa non trovato, contattare il produttore";
 
 "no_wifi" = "Nessuna connessione";
-
-
-/********** INFO **********/
 
 "aggiornamenti" = "Aggiornamenti";
 
@@ -244,3 +220,7 @@
 "portata" = "Portata";
 
 "advanced" = "Funzioni avanzate";
+
+"email_inviata" = "Un'email è stata inviata a questo indirizzo";
+
+"name" = "Name";
