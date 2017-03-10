@@ -43,7 +43,7 @@
 	<string name="email_inviata">An email was sent to this email address</string>
 	<string name="signing_question">If you are not registered</string>
 	<string name="do_signin">PLEASE REGISTER</string>
-	<string name="registrati">Registrati</string>
+	<string name="registrati">Register</string>
 	<string name="registrati_per_favore">If you are not registered\nPLEASE REGISTER</string>
 	<string name="password">Password</string>
 	<string name="conferma_password">Confirm the password</string>

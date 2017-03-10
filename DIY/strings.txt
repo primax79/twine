@@ -157,7 +157,7 @@
 		tags = ios,android
 		it = PER FAVORE REGISTRATI
 	[registrati]
-		en = Registrati
+		en = Register
 		tags = ios,android
 		it = Registrati
 	[registrati_per_favore]
