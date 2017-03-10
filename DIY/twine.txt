@@ -20,12 +20,12 @@ export BASE_PROJ_ANDROID='/c/Works/Android/Diy'
 #genera le risorse android
 ./twine generate-all-localization-files DIY/strings.txt -r DIY/android -f android -t android
 
-#genera le risorse ios
-./twine generate-all-localization-files DIY/strings.txt -r DIY/ios -f apple -t ios
-
 #sostituisce le risorse android sul progetto
 cp DIY/android/values-en/strings.xml $BASE_PROJ_ANDROID/app/src/main/res/values/strings.xml
 cp DIY/android/values-it/strings.xml $BASE_PROJ_ANDROID/app/src/main/res/values-it/strings.xml
+
+#genera le risorse ios
+./twine generate-all-localization-files DIY/strings.txt -r DIY/ios -f apple -t ios
 
 #sostituisce le risorse ios sul progetto
 cp DIY/ios/en.lproj/Localizable.strings $BASE_PROJ_XCODE/Base.lproj/Localizable.strings
