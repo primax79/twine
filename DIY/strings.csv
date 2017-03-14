@@ -1,0 +1,168 @@
+section;key;en;tags;it
+VERIFICARE;dove_trovare_password;Where can I find the password?;android;Dove posso trovare la mia password?
+APP;close;Close;android;Chiudi
+APP;open;Open;android;Apri
+APP;loading;Loading...;ios;Loading...
+APP;not_available_devel;Not available in test;ios;Non disponibile nella versione di test
+APP;chiudi_app;Close the app;android;Chiudi l'app
+APP;all;All;android;Tutti
+APP;no;No;android;No
+APP;ripeti;Repeat;android;Ripeti
+APP;campo_non_vuoto;This field can't be blank;android;Il campo non può essere lasciato vuoto
+APP;campo_troppo_corto;The field is too short;android;Il campo è troppo corto
+APP;cant_be_empty;This field is mandatory;android;Questo campo non può essere lasciato vuoto
+APP;richiedi_nuovamente;Ask again;android;Chiedi nuovamente
+APP;richiesta_annullata;Request cancelled;android;Richiesta cancellata
+APP;seriale;serial;android;seriale
+APP;on;Enable;android;Attivazione
+APP;salva;Save;android;Salva
+APP;app_version;Version %@ (%@);ios;Versione %@ (%@)
+APP;server_error;Server error;ios,android;Errore di comunicazione col server
+APP;error;Error;ios,android;Errore
+APP;cancel;Cancel;ios,android;Annulla
+APP;ok;OK;ios,android;Ok
+APP;riprova;Retry;ios,android;Riprova
+APP;conferma_ok;Yes, I'm sure;ios,android;Si, sono sicuro
+APP;bad_response_retry;Your request failed, please try again;ios,android;La richiesta non è andata a buon fine, riprovare.
+APP;premere_per_uscire;Push again to quit;android;Premere nuovamente per uscire
+APP;in_attesa;Waiting…;android;In attesa…s
+LOGIN E REGISTER;login;Login;ios,android;Login
+LOGIN E REGISTER;login_con_facebook;Login with Facebook;ios,android;Login con Facebook
+LOGIN E REGISTER;password_dimenticata;Forgot the password?;ios,android;Password dimenticata?
+LOGIN E REGISTER;placeholder_email;E-MAIL ADDRESS;ios,android;INDIRIZZO EMAIL
+LOGIN E REGISTER;placeholder_password;PASSWORD;ios,android;PASSWORD
+LOGIN E REGISTER;email_inviata;An email was sent to this email address;android,ios;Un'email è stata inviata a questo indirizzo
+LOGIN E REGISTER;signing_question;If you are not registered;ios,android;Se non sei registrato
+LOGIN E REGISTER;do_signin;PLEASE REGISTER;ios,android;PER FAVORE REGISTRATI
+LOGIN E REGISTER;registrati;Register;ios,android;Registrati
+LOGIN E REGISTER;registrati_per_favore;If you are not registered\nPLEASE REGISTER;ios,android;Se non sei registrato\nPER FAVORE REGISTRATI
+LOGIN E REGISTER;password;Password;ios,android;Password
+LOGIN E REGISTER;conferma_password;Confirm the password;ios,android;Conferma la password
+LOGIN E REGISTER;conferma_password_;CONFIRM THE PASSWORD;ios,android;CONFERMA LA PASSWORD
+LOGIN E REGISTER;data_di_nascita;Date of birth (dd/mm/yyyy);ios,android;Data di nascita (gg/mm/aaaa)
+LOGIN E REGISTER;indirizzo_email;E-mail address;ios,android;Indirizzo Email
+LOGIN E REGISTER;informativa_privacy_txt;Il sottoscritto/a acquisite le informazioni sopra riportate in osservanza all'art. 13 del DLgs n\° 196/2003 manifesta il proprio libero e pieno consenso al trattamento dei dati personali forniti mediante l'indicazione nella apposita casella in calce al Form.;ios,android;Il sottoscritto/a acquisite le informazioni sopra riportate in osservanza all'art. 13 del DLgs n\° 196/2003 manifesta il proprio libero e pieno consenso al trattamento dei dati personali forniti mediante l'indicazione nella apposita casella in calce al Form.
+LOGIN E REGISTER;fb_permission_error;Missing mandatory permissions;ios;E' necessario concedere i permessi richiesti
+LOGIN E REGISTER;fb_user_not_found;The user is not registered;ios;Utente non registrato
+LOGIN E REGISTER;fb_do_register;Proceed with signup?;ios;Procedere con la registrazione?
+LOGIN E REGISTER;per_favore_email;Please insert the e-mail address.\nYou will receive a temporary password;ios,android;Per favore, inserisci l'indirizzo email di registrazione.\n Riceverai una password di accesso temporanea
+LOGIN E REGISTER;do_logout;Do Logout?;ios;Eseguire il Logout?
+LOGIN E REGISTER;inserisci_indirizzo_email_;INSERT YOUR E-MAIL ADDRESS;android;INSERISCI IL TUO INDIRIZZO EMAIL
+LOGIN E REGISTER;inserisci_password_;INSERT A PASSWORD;android;INSERISCI UNA PASSWORD
+LOGIN E REGISTER;reset_password;Reset Password;android;Reset Password
+LOGIN E REGISTER;facebook_email_necessaria;Your e-mail address is required to complete the registration;android;E' necessario avere il tuo indirizzo email per completare la registrazione.
+LOGIN E REGISTER;completa_registrazione;Complete here your registration;android;Completa qui la tua registrazione
+LOGIN E REGISTER;associa_account_facebook;Sign Up with Facebook;android;Associa account Facebook
+Profilo Utente;il_tuo_nome;Your Name…;android;Il tuo nome…
+Profilo Utente;cambia_foto;Change Image;ios,android;Cambia foto
+Profilo Utente;inserisci_vecchia_password;Insert accurately your old password;ios,android;Inserisci correttamente la tua vecchia password
+Profilo Utente;vecchia_password;Old password;ios,android;Vecchia password
+Profilo Utente;nuova_password;New password;ios,android;Nuova password
+Profilo Utente;password_troppo_corta;Password too short;ios,android;Password troppo corta
+Profilo Utente;password_non_coincidono;The passwords are different;ios,android;Le due password non coincidono
+Profilo Utente;ripeti_password;Repeat password;ios,android;Ripeti password
+Profilo Utente;changed_password;Password modified;ios;Password modificata
+Profilo Utente;cancella_account;Delete the account;ios,android;Cancella il tuo account
+Profilo Utente;conferma_elimina_accont;Are you sure that you want to delete the account?;ios,android;Sei sicuro di voler cancellare il tuo account?
+Profilo Utente;numero_di_telefono;Phone number;ios,android;Numero di telefono
+Profilo Utente;error_invalid_email;The e-mail address is not valid;ios,android;Errore, l'email inserita non è valida.
+Profilo Utente;data_non_valida;Invalid date;ios,android;Data non valida
+Profilo Utente;name;Name;ios;Nome
+Profilo Utente;cambia_nome;Change your name;ios,android;Cambia il tuo nome
+Profilo Utente;cambia_password;Change your password;ios,android;Cambia la tua password
+Profilo Utente;accetta_trattamento;Please accept the terms of service and privacy policy;ios,android;Accetta il trattamento dei dati personali
+MENU;menu_home;My Garden;ios,android;Il mio giardino
+MENU;menu_devices;My devices;ios,android;I miei dispositivi
+MENU;menu_profile;Profile;ios,android;Profilo
+MENU;menu_info;Information;ios,android;Informazioni
+MENU;menu_support;Support;ios,android;Supporto
+MENU;menu_logout;Logout;ios,android;Logout
+HOME;status_ok;STATUS OK;ios,android;STATUS OK
+HOME;scrivi_la_citta;Insert the name of the city;android;Scrivi la città desiderata
+HOME;seleziona_paese;Select a Country;android;Seleziona lo Stato
+HOME;cambia_nome_installazione;Change the name of the installation;ios,android;Cambia nome all'installazione
+HOME;pressione;Pressure;ios,android;Pressione
+HOME;portata;Flow rate;ios,android;Portata
+HOME;advanced;Advanced settings;ios,android;Funzioni avanzate
+HOME;seleziona_citta;Select a city;ios,android;Seleziona una città
+HOME;attivazione;Activation;ios;Attivazione
+PROGRAMMAZIONE;lun_short;M;ios,android;L
+PROGRAMMAZIONE;mar_short;T;ios,android;M
+PROGRAMMAZIONE;mer_short;W;ios,android;M
+PROGRAMMAZIONE;gio_short;T;ios,android;G
+PROGRAMMAZIONE;ven_short;F;ios,android;V
+PROGRAMMAZIONE;sab_short;S;ios,android;S
+PROGRAMMAZIONE;dom_short;S;ios,android;D
+PROGRAMMAZIONE;lun_medium;Mon;ios,android;Lun
+PROGRAMMAZIONE;mar_medium;Tue;ios,android;Mar
+PROGRAMMAZIONE;mer_medium;Wed;ios,android;Mer
+PROGRAMMAZIONE;gio_medium;Thu;ios,android;Gio
+PROGRAMMAZIONE;ven_medium;Fri;ios,android;Ven
+PROGRAMMAZIONE;sab_medium;Sat;ios,android;Sab
+PROGRAMMAZIONE;dom_medium;Sun;ios,android;Dom
+PROGRAMMAZIONE;aggiungi_programma;Add a program;ios,android;Aggiungi programma
+PROGRAMMAZIONE;programma_settimanale;Weekly program;ios,android;Programma Settimanale
+PROGRAMMAZIONE;programma_settimanale_inserito;Program inserted successfully;ios,android;Programma inserito con successo
+PROGRAMMAZIONE;nessun_programma_da_visualizzare;You don't have any avaible program;android;Non hai nessun programma da visualizzare!
+PROGRAMMAZIONE;programma;Program;android;Programma
+PROGRAMMAZIONE;la_durata_non_puo_essere_nulla;Duration must have a value bigger than zero;android;La durata deve avere un valore maggiore di zero
+PROGRAMMAZIONE;selezionare_almeno_un_giorno;Select a day or more;android;Selezionare almeno un giorno
+PROGRAMMAZIONE;massimo_numero_programmi_attivi_raggiunto;Max number of programs reached;android;Massimo numero di programmi attivi raggiunto
+PROGRAMMAZIONE;programma_rimosso;Program cancelled;android;Programma cancellato
+PROGRAMMAZIONE;durata;Duration;android;Durata
+PROGRAMMAZIONE;inizio;Start;android;Inizio
+PROGRAMMAZIONE;secondi_sigla;s;android;s
+PROGRAMMAZIONE;minuti_sigla;minute/s;android;minuto/i
+PROGRAMMAZIONE;ore_sigla;hour/s;android;ora/e
+PROGRAMMAZIONE;giorni_sigla;day/s;android;giorno/i
+PROGRAMMAZIONE;tempo;Time;android;TEMPO
+PROGRAMMAZIONE;minuti;min;android;min
+DEVICES;nessun_dato_da;NO DATA FROM: %@;ios,android;NESSUN DATO DA: %@
+DEVICES;data_refresh_mancante;MISSING DATE OF LAST DATA RECEIVED;ios,android;DATA ULTIMO DATO RICEVUTO MANCANTE
+DEVICES;cambia_il_nome;Change name;ios,android;Cambia nome
+DEVICES;device;Device;ios;dispositivo
+DEVICES;conferma_elimina_dispsitivo;Are you sure that you want to delete the device?;ios,android;Sei sicuro di voler eliminare il dispositivo?
+DEVICES;aggiungi_pompa_wifi;Add a Wi-Fi Pump;ios,android;Aggiungi pompa wi-fi
+DEVICES;parametro_modificato_con_successo;Parameter successfully changed;android;Parametro modificato con successo
+DEVICES;attendere_completamento_richiesta;Wait for the completion of the previous request;android;Attendi il completamento della richiesta precedente
+DEVICES;cancellazione_in_corso;Cancelling...;android;Cancellazione in corso
+WIZARD;installazione_non_completata;Installation failed;ios;Installazione non completata]
+WIZARD;testo_di_benvenuto;Welcome on Tallas SMARTY\nAdd your first device;ios,android;Benvenuti su Tallas SMARTY\nAggiungi il tuo primo dispositivo
+WIZARD;istruzioni_accensione;Connect your pump to the electric socket, the Smarty Led lights on;ios,android;Connetti la tua pompa alla presa di corrente così da accendere la Smarty Led
+WIZARD;istruzioni_primo_punto;Connect your smartphone with the Tallas-xxxxxxx Wi-Fi, the Smarty Led lights on permanently;ios,android;Connetti il tuo smartphone con Tallas-xxxxxxx Wi-Fi così da accendere la Smarty Led permanentemente
+WIZARD;searching;Wait, search in progress…;ios,android;Attendere, ricerca in corso
+WIZARD;apri_le_impostazioni;Open the Wi-Fi Settings;android;Apri le impostazioni Wi-Fi
+WIZARD;errore_connected_pompa;An error occured during the connection with the pump, try again?;android;Si è verificato un errore durante la connessione alla pompa, riprovare?
+WIZARD;errore_connessione;An error occured during the connection with the pump;android;Errore durante la connessione della pompa
+WIZARD;errore_installation_pompa;An error occured during the pump installation, try again?;android;Errore durante l'installazione della pompa riprovare?
+WIZARD;chiudi_installazione;Close installation;android;Chiudi installazione
+WIZARD;pompa_non_trovata;Pump not found;android;Pompa non trovata
+WIZARD;pompa_non_trovata_retry;Do you want retry from beginning?;android;Vuoi riprovare la procedura dall'inizio?
+WIZARD;info_password;You can find the password under the router;android;Puoi trovare la tua password nella parte inferiore del tuo router
+WIZARD;devi_avere_una_installazione;To enter you must have one or more installation;android;Per entrare devi avere almeno un'installazione
+WIZARD;non_connessa;Disconnected;android;Disconnessa
+WIZARD;aggiungi_sensore_wifi;Add a sensor;ios,android;Aggiungi sensore wi-fi
+WIZARD;installazione;Installation;ios,android;Installazione
+WIZARD;istruzioni_quarto_punto;Connect the smartphone to the Wi-Fi connection;ios,android;Connetti il tuo smartphone alla wifi di casa e attendi il termine dell'installazione del dispositivo
+WIZARD;istruzioni_connesso;Your pump is connected!;ios,android;La tua pompa è connessa!
+WIZARD;seleziona_wifi_casa;Select your Wi-Fi connection;ios,android;Seleziona la tua wifi di casa
+WIZARD;attendere_completamento_installazione;Wait, installation…;ios,android;Attendere, installazione in corso…
+WIZARD;seriale_pompa_non_trovato;Pump serial number not found, contact the manufacturer;ios,android;Seriale pompa non trovato, contattare il produttore
+WIZARD;no_wifi;No wifi connection;ios;Nessuna connessione
+WIZARD;pompa_trovata_premere_per_proseguire;Pump detected, push a button to proceed;android;Pompa trovata, premere il bottone per proseguire
+WIZARD;prosegui;Proceed;android;Prosegui
+WIZARD;connessione_alla_pompa_persa;Pump connection lost;android;Connessione alla pompa persa
+WIZARD;connessione;Connection;android;connessione
+WIZARD;premere_per_uscire_installazione_pompa;Push again to quit the pump configuration;android;Premere nuovamente per uscire dalla configurazione della pompa
+WIZARD;connessa;Connected;android;Connessa
+WIZARD;scrivi_password_wifi;Insert the wifi password;ios;Inserisci la password del wifi
+WIZARD;conferma_connessione_wifi;Confirm to connect to the selected wifi?;ios;Confermi la connessione alla rete?
+INFO;come_aiutarti;How can we help you?;ios,android;Come possiamo aiutarti?
+INFO;manuale_istruzioni;Instruction manual;ios,android;Manuale di istruzioni
+INFO;eula;EULA;ios,android;EULA
+INFO;termini_e_condizioni;Terms and conditions;ios,android;Termini e condizioni
+INFO;politiche_privacy;Privacy policy;ios,android;Politiche sulla Privacy
+INFO;support_redirect;You will be redirected to our support page in www.tallaspump.com;ios,android;Sarai reinderizzato al nostra sezione di supporto all'interno di www.tallaspump.com
+INFO;aggiornamenti;Updates;ios,android;Aggiornamenti
+INFO;reinderizzato;You will be re-directed to www.tallaspumps.com;android;Sarai reinderizzato a www.tallaspumps.com
+INFO;avviso;Warning:;android;Attenzione:

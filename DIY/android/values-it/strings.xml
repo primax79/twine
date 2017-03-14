@@ -8,7 +8,7 @@
 
 	<!-- SECTION: APP -->
 	<string name="close">Chiudi</string>
-	<string name="open">Apri ààà</string>
+	<string name="open">Apri</string>
 	<string name="chiudi_app">Chiudi l\'app</string>
 	<string name="all">Tutti</string>
 	<string name="no">No</string>
@@ -29,7 +29,7 @@
 	<string name="conferma_ok">Si, sono sicuro</string>
 	<string name="bad_response_retry">La richiesta non è andata a buon fine, riprovare.</string>
 	<string name="premere_per_uscire">Premere nuovamente per uscire</string>
-	<string name="in_attesa">In attesa…s</string>
+	<string name="in_attesa">In attesa…</string>
 
 	<!-- SECTION: LOGIN E REGISTER -->
 	<string name="login">Login</string>
@@ -134,8 +134,12 @@
 	<string name="parametro_modificato_con_successo">Parametro modificato con successo</string>
 	<string name="attendere_completamento_richiesta">Attendi il completamento della richiesta precedente</string>
 	<string name="cancellazione_in_corso">Cancellazione in corso</string>
+	<string name="updatable">È presente un aggiornamento per la tua pompa, vuoi procedere?</string>
+	<string name="schedule_update">Aggiorna pompa</string>
+	<string name="will_update">A breve la tua pompa verrà aggiornata, attenzione a non staccare la corrente durante l\'aggiornamento, il rischio è che la pompa non sia più utilizzabile</string>
 
 	<!-- SECTION: WIZARD -->
+	<string name="installazione_non_completata">Installazione non completata</string>
 	<string name="testo_di_benvenuto">Benvenuti su Tallas SMARTY\nAggiungi il tuo primo dispositivo</string>
 	<string name="istruzioni_accensione">Connetti la tua pompa alla presa di corrente così da accendere la Smarty Led</string>
 	<string name="istruzioni_primo_punto">Connetti il tuo smartphone con Tallas-xxxxxxx Wi-Fi così da accendere la Smarty Led permanentemente</string>

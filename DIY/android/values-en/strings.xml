@@ -110,7 +110,7 @@
 	<string name="aggiungi_programma">Add a program</string>
 	<string name="programma_settimanale">Weekly program</string>
 	<string name="programma_settimanale_inserito">Program inserted successfully</string>
-	<string name="nessun_programma_da_visualizzare">You don\'t have any avaible program</string>
+	<string name="nessun_programma_da_visualizzare">You don\'t have any available program</string>
 	<string name="programma">Program</string>
 	<string name="la_durata_non_puo_essere_nulla">Duration must have a value bigger than zero</string>
 	<string name="selezionare_almeno_un_giorno">Select a day or more</string>
@@ -134,8 +134,12 @@
 	<string name="parametro_modificato_con_successo">Parameter successfully changed</string>
 	<string name="attendere_completamento_richiesta">Wait for the completion of the previous request</string>
 	<string name="cancellazione_in_corso">Cancelling...</string>
+	<string name="updatable">Update available, do you want to proceed?</string>
+	<string name="schedule_update">Updatable</string>
+	<string name="will_update">Your device will be updated soon. Please do not disconnect the power supply during the upgrade, in order to avoid damage of the pump</string>
 
 	<!-- SECTION: WIZARD -->
+	<string name="installazione_non_completata">Installation failed</string>
 	<string name="testo_di_benvenuto">Welcome on Tallas SMARTY\nAdd your first device</string>
 	<string name="istruzioni_accensione">Connect your pump to the electric socket, the Smarty Led lights on</string>
 	<string name="istruzioni_primo_punto">Connect your smartphone with the Tallas-xxxxxxx Wi-Fi, the Smarty Led lights on permanently</string>

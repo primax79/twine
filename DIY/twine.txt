@@ -1,5 +1,5 @@
-#rm strings.txt
-touch strings.txt
+﻿#rm strings.ini
+touch strings.ini
 
 ## base osx
 export BASE_PROJ_XCODE=~/xcode_projects/DAB/DIY/DIY
@@ -8,25 +8,44 @@ export BASE_PROJ_ANDROID=~/android_studio/DIY
 ## base windows
 export BASE_PROJ_ANDROID='/c/Works/Android/Diy'
 
-#aggiorna il file strings.txt dalle risorse ios
-./twine consume-localization-file strings.txt $BASE_PROJ_XCODE/it.lproj/Localizable.strings -d en -m -c -l it -t ios
-./twine consume-localization-file strings.txt $BASE_PROJ_XCODE/Base.lproj/Localizable.strings -d en -m -c -l en -t ios
+#aggiorna il file strings.ini dalle risorse ios
+../twine consume-localization-file strings.ini $BASE_PROJ_XCODE/it.lproj/Localizable.strings -d en -m -c -l it -t ios
+../twine consume-localization-file strings.ini $BASE_PROJ_XCODE/Base.lproj/Localizable.strings -d en -m -c -l en -t ios
 
 
-#aggiorna il file strings.txt dalle risorse android
-./twine consume-localization-file DIY/strings.txt $BASE_PROJ_ANDROID/app/src/main/res/values/strings.xml -d en -m -c -l en -t android 
-./twine consume-localization-file DIY/strings.txt $BASE_PROJ_ANDROID/app/src/main/res/values-it/strings.xml -d en -m -c -l it -t android
+#aggiorna il file strings.ini dalle risorse android
+../twine consume-localization-file strings.ini $BASE_PROJ_ANDROID/app/src/main/res/values/strings.xml -d en -m -c -l en -t android 
+../twine consume-localization-file strings.ini $BASE_PROJ_ANDROID/app/src/main/res/values-it/strings.xml -d en -m -c -l it -t android
+
+
+
 
 #genera le risorse android
-./twine generate-all-localization-files DIY/strings.txt -r DIY/android -f android -t android
+../twine generate-all-localization-files strings.ini -r android -f android -t android
 
 #sostituisce le risorse android sul progetto
-cp DIY/android/values-en/strings.xml $BASE_PROJ_ANDROID/app/src/main/res/values/strings.xml
-cp DIY/android/values-it/strings.xml $BASE_PROJ_ANDROID/app/src/main/res/values-it/strings.xml
+cp android/values-en/strings.xml $BASE_PROJ_ANDROID/app/src/main/res/values/strings.xml
+cp android/values-it/strings.xml $BASE_PROJ_ANDROID/app/src/main/res/values-it/strings.xml
+
+
+#genera le risorse android
+../twine generate-all-localization-files strings.ini -r android -f android -t android
+#sostituisce le risorse android sul progetto
+cp android/values-en/strings.xml $BASE_PROJ_ANDROID/app/src/main/res/values/strings.xml
+cp android/values-it/strings.xml $BASE_PROJ_ANDROID/app/src/main/res/values-it/strings.xml
+
 
 #genera le risorse ios
-./twine generate-all-localization-files DIY/strings.txt -r DIY/ios -f apple -t ios
-
+twine generate-all-localization-files -r strings.ini  ios -f apple -t ios 
 #sostituisce le risorse ios sul progetto
-cp DIY/ios/en.lproj/Localizable.strings $BASE_PROJ_XCODE/Base.lproj/Localizable.strings
-cp DIY/ios/it.lproj/Localizable.strings $BASE_PROJ_XCODE/it.lproj/Localizable.strings
+mv ios/en.lproj/Localizable.strings $BASE_PROJ_XCODE/Base.lproj/Localizable.strings
+mv ios/it.lproj/Localizable.strings $BASE_PROJ_XCODE/it.lproj/Localizable.strings
+
+
+twineCSV tocsv strings.ini
+// salvare con UTF8-bom
+// aprire con excel, salvare in xlsx
+// far editare
+// aprire xlsx editato, salvare in csv "separato da virgole" , che poi invece usa ;
+// salvare come UTF8 senza BOM,  endline LF
+twineCSV totwine strings.csv strings2.txt
